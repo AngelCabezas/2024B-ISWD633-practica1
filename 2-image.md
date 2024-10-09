@@ -54,7 +54,6 @@ En Docker, se utilizan varios identificadores para diferenciar de manera única 
 
 ### Inspeccionar una imagen
 El comando docker inspect se utiliza para obtener información detallada sobre un objeto de Docker específico, como un contenedor, una imagen, un volumen o una red. Proporciona información en formato JSON sobre el objeto especificado.
-
 ```
 docker inspect <nombre imagen>
 docker inspect <nombre imagen>:<tag>
@@ -64,6 +63,7 @@ Inspeccionar la imagen hello-world
 ```
 docker inspect hello-world
 ```
+![Imagen y contenedores](img/inspeccionarImagenes.jpg)
 
 **¿Con qué algoritmo se está generando el ID de la imagen?**
 El ID de una imagen en Docker se genera utilizando el algoritmo SHA-256, que es un algoritmo de hash criptográfico. Esto garantiza que el ID sea único y esté relacionado con el contenido de la imagen. Cada vez que la imagen cambia, su ID también cambia, debido a que el contenido ha sido modificado.
