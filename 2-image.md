@@ -30,11 +30,15 @@ docker pull hello-world
 ```
 ***
 
-**¿Qué es nginx**
-# COMPLETAR 
+**¿Qué es nginx?**
+
+Es un servidor web y proxy inverso de alto rendimiento que también puede actuar como un equilibrador de carga, proxy de correo y caché HTTP.
+***
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+```
+docker pull nginx:alpine
+```
 
 ### Listar imágenes
 
